@@ -16,10 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"net.minehearth.Minehearth"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"net.minehearth.MinehearthClient"
+		],
+		"fabric-datagen": [
+			"net.minehearth.DataGenerator"
 		]
 	},
 	"mixins": [
